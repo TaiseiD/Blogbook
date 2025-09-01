@@ -3,6 +3,8 @@ session_start();
 $page_title = 'Dashboard';
 include('includes/header.php');
 include('includes/navbar.php');
+include('includes/dbcon.php');
+
 
 if(!isset($_SESSION['auth_user'])) {
     $_SESSION['message'] = "Please login to access the dashboard.";

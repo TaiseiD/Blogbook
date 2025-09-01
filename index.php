@@ -3,6 +3,8 @@ session_start();
 $page_title = 'BlogBook';
 include('includes/header.php');
 include('includes/navbar.php');
+include('includes/dbcon.php');
+
 ?>
 
 <div class="py-5 bg-light">
